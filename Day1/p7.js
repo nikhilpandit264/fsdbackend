@@ -1,9 +1,9 @@
 const fs = require('fs');
 
 const write=()=>{
-    const data = "I am new data of P5";
+    const data = "";
 
-    fs.writeFile('./mkdir/data.txt',data,(err)=>{
+    fs.writeFile('./data.txt',data,(err)=>{
         if(err)
             console.log(err);
         else
